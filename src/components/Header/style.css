@@ -1,0 +1,72 @@
+h1 {
+  padding: 20px;
+  color: rgb(60, 33, 122);
+
+  background: radial-gradient(rgba(92, 78, 66, 0.8), rgba(62, 148, 148, 0.589));
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  letter-spacing: 2px;
+  
+}
+
+.sub-header {
+  padding: 5px;
+  color: rgb(60, 33, 122);
+  font-size: 20px;
+  font-weight: 800;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  color: rgb(60, 33, 122);
+  border-radius: 8px;
+  background-color: rgb(184, 184, 184);
+  margin-bottom: 8px;
+}
+button:hover {
+  color: rgb(239, 237, 245);
+  background-color: rgb(60, 33, 122);
+  font-weight: 800;
+}
+.bold {
+  text-transform: uppercase;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.area {
+  text-align: center;
+  font-size: 5.5em;
+  color: #fff;
+  letter-spacing: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+  padding: 30px 0;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
